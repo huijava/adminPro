@@ -4,6 +4,7 @@ public class Product {
 
     private String name;
     private Long price;
+    private String color;
 
     public String getName() {
         return name;
@@ -19,5 +20,9 @@ public class Product {
 
     public void setPrice(Long price) {
         this.price = price;
+    }
+
+    public static void main(String[] args) {
+        System.out.println("商品信息");
     }
 }
